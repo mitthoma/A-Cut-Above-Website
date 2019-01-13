@@ -1,0 +1,390 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    min-height: 800px;
+    padding-top: 37px;
+}
+
+#title {
+    
+    margin-top: 10%;
+    font-size: 4em;
+    width: 100%;
+}
+
+#intro {
+    font-size: 2em;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+#styleBookTitle {
+    padding: 3% 3%;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 10% 10% 10% 10%;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px 50px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#location {
+    margin-bottom: 10%;
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: -10%;
+}
+
+#locationTitle {
+    margin-bottom: -10%;
+}
+
+#locationTitle hr {
+    margin-top: 0%;
+}
+
+#stylistSection {
+    font-size: 1.1em;
+}
+
+#facebook {
+    font-size: 1.7em;
+}
+
+#hr1 {
+    margin-top: -5%;
+    padding-top: 0;
+    margin-bottom: 10%;
+}
+
+#hr2 {
+    margin-top: 5%;
+    
+}
+
+#hr3 {
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+#hr4 {
+    margin-top: 5%;
+}
+
+#intro h3:nth-of-type(2) {
+    margin-top: 5%;
+}
+
+#titleHR {
+    margin: 0 auto;
+}
+
+#styleBookTitle h2 {
+    font-size: 4em;
+}
+
+#css-support-msg {
+  text-align: center;
+  color: green;
+  display: none;
+}
+
+#css-support-msg.supported {
+  display: block;
+}
+
+#navbarNavAltMarkup {
+    opacity: 1;
+}
+
+#gal1{
+    background-image: url(images/acutabove/B62A3FA1-8446-4531-AD6A-2DBD9CBAC9C2.JPG);
+}
+
+#gal2{
+    background-image: url(images/acutabove/2D589A29-BA05-406D-8AC5-879C75BAE0B5.JPG);
+}
+
+#gal3{
+    background-image: url(images/acutabove/27D312EE-2754-4BFB-9E10-1A381FDD62D8.JPG);
+}
+
+#gal4{
+    background-image: url(images/acutabove/87D95F8A-DDE3-4F02-A51F-FA74BF47785A.JPG);
+}
+
+#gal5{
+    background-image: url(images/acutabove/BF47C362-C5F3-402F-BB07-CD8C83AB6C5E.JPG);
+}
+
+#gal6{
+    background-image: url(images/acutabove/D601372D-383A-446B-B8A3-1D5C977222FE.JPG);
+}
+
+#gal7{
+    background-image: url(images/acutabove/2C4FA946-7A20-4D8A-A514-8DFEF2B299B7.JPG);
+}
+
+#gal8{
+    background-image: url(images/acutabove/050E46B5-2943-41F6-BE63-C2BE81948EA7.JPG);
+}
+
+#gal9{
+    background-image: url(images/acutabove/9C922574-568A-4B4E-91FD-DFE37245CC8E.JPG);
+}
+
+.header {
+    padding: 100px;
+}
+
+.jumbotron {
+    /*background-image: url("https://images.unsplash.com/photo-1467874296018-2d8c22ac94a0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b6f201c77edc940bc053db21085cf258&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb");*/
+    background-image: url(images/acutabove/B62A3FA1-8446-4531-AD6A-2DBD9CBAC9C2.JPG);
+    background-position: inherit;
+    color: white;
+    height: 50vh;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+.thumbnail {
+    
+    /*background-image: url(images/acutabove/B62A3FA1-8446-4531-AD6A-2DBD9CBAC9C2.JPG);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    
+    margin-top: 5%;
+    flex: 25%;
+    max-width: 50%;
+    vertical-align: middle;
+    
+}
+
+@media screen and (max-width: 800px) {
+  .thumbnail {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .thumbnail {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.galleryRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    margin-top: 2.5%;
+}
+
+.galleryDiv {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.paral {
+    margin-top: 5%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.info2 {
+    background-size: cover;
+    padding: 10% 10%;
+    font-family: 'Comfortaa', cursive;
+    
+    
+}
+
+.infoStylist {
+    height: 100%;
+    width: 100%;
+    margin-top: 5vh;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.info3 {
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1519500528352-2d1460418d41?ixlib=rb-0.3.5&s=530f4323d8ebe4658285ca7163173634&auto=format&fit=crop&w=1500&q=80");
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.jumboInfo {
+    height: 60%;
+    width: 60%;
+    background-size: cover;
+    
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    opacity: 0.3;
+    color: white;
+    margin-top: 10%;
+    padding: 2% 2%;
+    border-radius: 1%;
+}
+
+.infoBox {
+    background-color: white;
+    opacity: 0.95;
+    padding: 10% 10%;
+    margin: 5% 5% 5% 5%;
+    border-radius: 15px 50px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.infoBoxSecondary {
+    background-color: #b74355;
+    color: white;
+    opacity: 0.9;
+    padding: 10% 10%;
+    margin: 5% 5% 5% 5%;
+    border-radius: 15px 50px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.centerHeader {
+    text-align: center;
+    
+}
+
+.padded {
+    padding: 5% 5% 5% 5%;
+}
+
+.stylist {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 8%;
+    
+}
+
+.stylist2 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 8%;
+    
+}
+
+.stylist3 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 8%;
+    
+}
+
+.col-md-4 {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #b74355, #8c8b8b, #b74355);
+  background-image: -moz-linear-gradient(left, #b74355, #8c8b8b, #b74355);
+  background-image: -ms-linear-gradient(left, #b74355, #8c8b8b, #b74355);
+  background-image: -o-linear-gradient(left, #b74355, #8c8b8b, #b74355);
+  margin: 0% 5% 5% 5%;
+}
+
+
+.list-group2 {
+    background-color: #b74355;
+    color: white;
+    border-color: white;
+}
+
+.col-md-6 {
+    border-radius: 25%;
+}
+
+.hourTable {
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.rowSecondary {
+    background-color: #b74355;
+    color: white;
+    opacity: 0.9;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+.col-md-12 p {
+    
+    margin: 0 0 0 0;
+}
+
+.alignLeft {
+    float: left;
+}
+
+.alignRight {
+    float: right;
+}
+
+.fixed-top {
+    opacity: 0.8;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+    }
+    
+.grow:hover {
+    transform: scale(1.1); 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  padding: 5px 0;
+}
+
+
+section:focus {
+  outline: none;
+}
